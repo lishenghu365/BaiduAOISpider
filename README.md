@@ -481,6 +481,7 @@ BaiduAOISpider
 [^5]: WGS-84 坐标系（World Geodetic System 一 1984 Coordinate System）是一种国际上采用的地理坐标系。GPS 是以 WGS-84 坐标系为根据的（因此 GPS 的经纬度就是在 WGS84 坐标系下的经纬度）。参考来源：[百度百科](https://baike.baidu.com/item/WGS-84%E5%9D%90%E6%A0%87%E7%B3%BB/730443)
 
 [^6]: 类似的项目往往采用最基础的 “行政区划区域检索” url，即还需要 POI 所在的市和区县作为参数，这在已经有每个 POI 经纬度定位的条件下是多余的
+4. https://mp.weixin.qq.com/s?__biz=MzI1MDUyODA2Ng==&mid=2247484343&idx=1&sn=de88a5e6d0a8027933226307975730e9&chksm=e981ab9adef6228c0ba94b3a12a416d554dbc34a0dea01d3b3533e7310cb54a419a87ae02339#rd
 
 [^7]: 如果两级分类都提供，就添加 `&tag=一级行业分类;二级行业分类&scope=2`；如果只提供了其中一级分类，就添加 `&tag=一级/二级行业分类&scope=2`。设置 `&scope=2` 会返回检索结果中每一个 uid 的详细信息包括行业分类信息，进而再次确认每个检索结果的行业分类是一致的
 
